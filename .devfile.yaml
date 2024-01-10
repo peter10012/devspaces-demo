@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tooling-container
     container:
-      image: image-registry.openshift-image-registry.svc:5000/jpoe3352-dev/centos:1.0
+      image: image-registry.openshift-image-registry.svc:5000/universal-developer-image:ubi8-latest
       memoryLimit: 10Gi
       cpuLimit: 1500m
 commands:
