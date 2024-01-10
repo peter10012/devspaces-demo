@@ -4,9 +4,9 @@ metadata:
 components:
   - name: tooling-container
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      image: image-registry.openshift-image-registry.svc:5000/jpoe3352-dev/centos:1.0
+      memoryLimit: 64Gi
       memoryRequest: 256M
-      memoryLimit: 1536M
       cpuRequest: 100m
       cpuLimit: 1500m
 commands:
