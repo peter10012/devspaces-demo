@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tooling-container
     container:
-      image: default-route-openshift-image-registry.apps.sandbox-m4.g2pi.p1.openshiftapps.com/jpoe3352-dev/universal-developer-image:ubi8-latest
+      image: "default-route-openshift-image-registry.apps.sandbox-m4.g2pi.p1.openshiftapps.com/jpoe3352-dev/centos:1.0"
       memoryLimit: 10Gi
       cpuLimit: 1500m
 commands:
