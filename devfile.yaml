@@ -5,8 +5,8 @@ components:
   - name: tooling-container
     container:
       image: image-registry.openshift-image-registry.svc:5000/jpoe3352-dev/centos:1.0
-      memoryLimit: 64Gi
-      memoryRequest: 256M
+      memoryLimit: 14Gi
+      memoryRequest: 6Gi
       cpuRequest: 100m
       cpuLimit: 1500m
 commands:
